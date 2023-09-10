@@ -1,0 +1,59 @@
+{
+  "name": "story-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build frontend/index.html",
+    "server": "node backend/server.js",
+    "dev": "concurrently --kill-others \"parcel watch frontend/index.html\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4 || ^3 || ^2.3.0 || ^1.7.0",
+    "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/styles": "^4.11.5",
+    "@mui/material": "^5.14.8",
+    "@uiw/react-color": "^1.3.3",
+    "axios": "^0.24.0",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^5.1.3",
+    "cheerio": "^1.0.0-rc.12",
+    "concurrently": "^6.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "metaphor-node": "^1.0.20",
+    "node-fetch": "^2.6.1",
+    "openai": "^4.6.0",
+    "parcel-bundler": "^1.12.5",
+    "puppeteer": "^21.1.1",
+    "querystring": "^0.2.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "react-router-dom": "^6.0.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "styled-components": "^5.3.3"
+  },
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
+  ]
+}

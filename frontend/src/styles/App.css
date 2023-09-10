@@ -1,0 +1,86 @@
+:root {
+  --secondary-color: #D9D9D9; 
+  --terciary-color: #E6E6E6;}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+body {  
+  font-family: 'Lora', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+  
+
+
+
+body {
+  overflow: hidden;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
+
+.bgc-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bgc-terciary {
+  background-color: var(--terciary-color);
+}
+
+button {
+  width: 7rem;
+}
+
+.logo-container {
+  width: 200px;
+  height: 80px; 
+  background-color: blue
+}
+
+.player-scoreboard {
+  background-color: var(--terciary-color);
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 50px 50px 0;
+}
+
+.roman-font-family {
+  font-family: 'Times New Roman';
+  font-style: italic;
+}
+
+.pos-abs-input {
+  position: absolute; 
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 8%;
+  
+}
+
+.transition-animation {
+  transition: 0.2s;
+}
+
+.text-code {
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+a {
+  text-decoration: none 
+}
